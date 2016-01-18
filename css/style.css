@@ -54,6 +54,18 @@ ul.list-group ul li {
     line-height: 22px;
 }
 
+ul.list-group ul:nth-child(2) li:nth-child(1),
+ul.list-group ul:nth-child(3) li:nth-child(1),
+ul.list-group ul:nth-child(4) li:nth-child(1){
+	width: 85px;
+}
+
+ul.list-group ul:nth-child(2) li:nth-child(2),
+ul.list-group ul:nth-child(3) li:nth-child(2),
+ul.list-group ul:nth-child(4) li:nth-child(2){
+	width: 25px;
+}
+
 li.list-group-item {
     display: block!important;
     border-left: 0;
